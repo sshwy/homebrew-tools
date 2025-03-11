@@ -8,7 +8,7 @@ cask "pku3b" do
   url "https://github.com/sshwy/pku3b/releases/download/#{version}/pku3b-#{version}-aarch64-apple-darwin.tar.gz",
       verified: "github.com/sshwy/pku3b/"
   name "pku3b"
-  desc "a Better BlackBoard for PKUers"
+  desc "Better BlackBoard for PKUers"
   homepage "https://github.com/sshwy/pku3b"
 
   # Documentation: https://docs.brew.sh/Brew-Livecheck
