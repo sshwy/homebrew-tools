@@ -5,8 +5,7 @@ cask "pku3b" do
   version "0.10.0"
   sha256 "7862aa5e1973f7aa8d80dd38ddfc02a4f11dacf9d722ffda7fe8ac02acfd1919"
 
-  url "https://github.com/sshwy/pku3b/releases/download/#{version}/pku3b-#{version}-aarch64-apple-darwin.tar.gz",
-      verified: "github.com/sshwy/pku3b/"
+  url "https://github.com/sshwy/pku3b/releases/download/#{version}/pku3b-#{version}-aarch64-apple-darwin.tar.gz"
   name "pku3b"
   desc "Better BlackBoard for PKUers"
   homepage "https://github.com/sshwy/pku3b"
