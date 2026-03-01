@@ -22,7 +22,7 @@ cask "pku3b" do
         match[1]
       end
     end
-    throttle 50
+    throttle 1
   end
 
   depends_on macos: ">= :big_sur"
