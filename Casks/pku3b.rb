@@ -2,8 +2,8 @@
 #                https://docs.brew.sh/Adding-Software-to-Homebrew#cask-stanzas
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
 cask "pku3b" do
-  version "0.12.1"
-  sha256 "a369583d69d4196d1a47d895fbd082614e7825855ca1c331752f4a24d160102f"
+  version "0.13.0"
+  sha256 "0d8f415ca70bc46e811d6bfdd9f056deb1ac3ae0f9e8c2af1d966c248bd832d1"
 
   url "https://github.com/sshwy/pku3b/releases/download/#{version}/pku3b-#{version}-aarch64-apple-darwin.tar.gz"
   name "pku3b"
@@ -25,7 +25,7 @@ cask "pku3b" do
     throttle 1
   end
 
-  depends_on macos: ">= :big_sur"
+  depends_on macos: :big_sur
   depends_on arch: :arm64
 
   # app ""
